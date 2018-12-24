@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Custom Camera</string>
+    <string name="squarecamera__request_write_storage_permission_text">Stroage permission needed</string>
+</resources>

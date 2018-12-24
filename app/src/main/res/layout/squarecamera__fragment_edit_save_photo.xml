@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+   >
+    <RelativeLayout
+        android:id="@+id/headerSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/cancel"
+            android:layout_width="30dp"
+            android:scaleType="centerInside"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_action_cwac_cam2_ic_close_white"
+            android:background="@android:color/transparent"
+            android:onClick="onCancel"/>
+
+
+        <ImageButton
+            android:id="@+id/retake"
+            android:layout_width="30dp"
+            android:scaleType="centerInside"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_action_cwac_cam2_ic_refresh_white"
+            android:background="@android:color/transparent"
+            android:layout_centerInParent="true"
+            android:onClick="reTake"/>
+
+        <ImageButton
+            android:id="@+id/save_photo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_action_cwac_cam2_ic_check_white"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/headerDevider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/headerSection"
+        app:srcCompat="@color/colorPrimaryDark" />
+    <View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/headerDevider"
+        android:layout_height="0dp"/>
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topView"
+       />
+
+
+
+
+
+</RelativeLayout>
