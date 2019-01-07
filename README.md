@@ -1,4 +1,3 @@
 # Androi-Custom-Camera
  
-
-![Image of  ](https://www.dropbox.com/s/x3h5d6ioa6gn3iy/iron_man-1.jpg?dl=1)
+![crop your area](https://user-images.githubusercontent.com/7686968/50765233-814e4080-129f-11e9-84e2-efb76e7c1b8e.png)
