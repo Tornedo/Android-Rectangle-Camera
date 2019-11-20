@@ -1,4 +1,4 @@
-# Androi-Custom-Camera 
+# Android-Custom-Camera 
 
 Android custom camera is build using the cwac-camera in that user can increase the viewing rectangle by dragging the edge of rectangle. Also can toggle the flash to on and off. And result the image can preview in the next activity
 
